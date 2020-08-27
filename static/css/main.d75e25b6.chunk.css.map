@@ -1,0 +1,1 @@
+{"version":3,"sources":["ContactForm.module.css"],"names":[],"mappings":"AAAA,MACI,WAAY,CACZ,aAAc,CACd,kBACJ,CAEA,iCACI,aACJ,CAFA,4BACI,aACJ,CAFA,6BACI,aACJ,CAFA,mBACI,aACJ","file":"main.d75e25b6.chunk.css","sourcesContent":["input {\r\n    width: 400px;\r\n    display: block;\r\n    margin-bottom: 20px;\r\n}\r\n\r\ninput::placeholder {\r\n    color: rgb(6, 173, 6);\r\n}"]}
