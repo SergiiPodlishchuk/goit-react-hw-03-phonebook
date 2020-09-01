@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 import ContactForm from "./ContactForm/ContactForm";
 import ContactList from "./ContactList/ContactList";
 import Filter from "./Filter/Filter";
-import { v4 as uuidv4 } from "uuid";
 
 const CONTACTS_DATA = [
   { id: "id-1", name: "Rosie Simpson", number: "459-12-56" },
@@ -80,6 +80,7 @@ export default class App extends Component {
 
   render() {
     const { filter } = this.state;
+    const visibleContacts = this.getVisibleContacts;
 
     return (
       <div>
@@ -88,7 +89,7 @@ export default class App extends Component {
         <h2>Contacts</h2>
         <Filter value={filter} inputFilter={this.onChangeFilter} />
         <ContactList
-          visibleContacts={this.getVisibleContacts}
+          visibleContacts={visibleContacts}
           onDeleteContact={this.removeContact}
         />
       </div>
