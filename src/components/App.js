@@ -19,10 +19,10 @@ export default class App extends Component {
   };
 
   componentDidMount() {
-    const takeContacts = localStorage.getItem("contacts");
-    if (takeContacts) {
+    const contacts = localStorage.getItem("contacts");
+    if (contacts) {
       this.setState({
-        contacts: JSON.parse(takeContacts),
+        contacts: JSON.parse(contacts),
       });
     }
   }
@@ -42,9 +42,9 @@ export default class App extends Component {
     };
     const { contacts } = this.state;
 
-    const arrayNames = contacts.map((contact) => contact.name);
+    const contactsNames = contacts.map((contact) => contact.name);
 
-    if (arrayNames.includes(name)) {
+    if (contactsNames.includes(name)) {
       alert(`${name} is already in contacts`);
       return;
     }
@@ -80,7 +80,7 @@ export default class App extends Component {
 
   render() {
     const { filter } = this.state;
-    const visibleContacts = this.getVisibleContacts;
+    const visibleContacts = this.getVisibleContacts();
 
     return (
       <div>
@@ -88,10 +88,7 @@ export default class App extends Component {
         <ContactForm addContact={this.addContact} />
         <h2>Contacts</h2>
         <Filter value={filter} inputFilter={this.onChangeFilter} />
-        <ContactList
-          visibleContacts={visibleContacts}
-          onDeleteContact={this.removeContact}
-        />
+        <ContactList items={visibleContacts} onRemove={this.removeContact} />
       </div>
     );
   }

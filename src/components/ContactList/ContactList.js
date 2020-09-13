@@ -2,17 +2,15 @@ import React from "react";
 
 import ContactListItem from "./ContactListItem";
 
-export default function ContactList({ visibleContacts, onDeleteContact }) {
-  const arrFilterredContact = visibleContacts();
+export default function ContactList({ items, onRemove }) {
   return (
     <ul>
-      {arrFilterredContact.map(({ id, name, number }) => {
+      {items.map(({ id, ...props }) => {
         return (
           <ContactListItem
             key={id}
-            name={name}
-            number={number}
-            onDeleteContact={() => onDeleteContact(id)}
+            {...props}
+            onDeleteContact={() => onRemove(id)}
           />
         );
       })}
