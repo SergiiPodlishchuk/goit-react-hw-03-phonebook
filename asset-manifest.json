@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-03-phonebook/static/css/main.d75e25b6.chunk.css",
-    "main.js": "/goit-react-hw-03-phonebook/static/js/main.8b13f541.chunk.js",
-    "main.js.map": "/goit-react-hw-03-phonebook/static/js/main.8b13f541.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-03-phonebook/static/js/runtime-main.cca09c81.js",
-    "runtime-main.js.map": "/goit-react-hw-03-phonebook/static/js/runtime-main.cca09c81.js.map",
-    "static/js/2.9ac5478f.chunk.js": "/goit-react-hw-03-phonebook/static/js/2.9ac5478f.chunk.js",
-    "static/js/2.9ac5478f.chunk.js.map": "/goit-react-hw-03-phonebook/static/js/2.9ac5478f.chunk.js.map",
-    "index.html": "/goit-react-hw-03-phonebook/index.html",
-    "precache-manifest.e0d172a9fb5d6f45aa5cbc323478e1da.js": "/goit-react-hw-03-phonebook/precache-manifest.e0d172a9fb5d6f45aa5cbc323478e1da.js",
-    "service-worker.js": "/goit-react-hw-03-phonebook/service-worker.js",
-    "static/css/main.d75e25b6.chunk.css.map": "/goit-react-hw-03-phonebook/static/css/main.d75e25b6.chunk.css.map",
-    "static/js/2.9ac5478f.chunk.js.LICENSE.txt": "/goit-react-hw-03-phonebook/static/js/2.9ac5478f.chunk.js.LICENSE.txt"
+    "main.css": "/goit-react-hw-05-phonebook/static/css/main.c58d8a43.chunk.css",
+    "main.js": "/goit-react-hw-05-phonebook/static/js/main.597481f9.chunk.js",
+    "main.js.map": "/goit-react-hw-05-phonebook/static/js/main.597481f9.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-05-phonebook/static/js/runtime-main.8e891d26.js",
+    "runtime-main.js.map": "/goit-react-hw-05-phonebook/static/js/runtime-main.8e891d26.js.map",
+    "static/js/2.a241a452.chunk.js": "/goit-react-hw-05-phonebook/static/js/2.a241a452.chunk.js",
+    "static/js/2.a241a452.chunk.js.map": "/goit-react-hw-05-phonebook/static/js/2.a241a452.chunk.js.map",
+    "index.html": "/goit-react-hw-05-phonebook/index.html",
+    "precache-manifest.5b8232539fdb1e3dbecc400e39dc408b.js": "/goit-react-hw-05-phonebook/precache-manifest.5b8232539fdb1e3dbecc400e39dc408b.js",
+    "service-worker.js": "/goit-react-hw-05-phonebook/service-worker.js",
+    "static/css/main.c58d8a43.chunk.css.map": "/goit-react-hw-05-phonebook/static/css/main.c58d8a43.chunk.css.map",
+    "static/js/2.a241a452.chunk.js.LICENSE.txt": "/goit-react-hw-05-phonebook/static/js/2.a241a452.chunk.js.LICENSE.txt",
+    "static/media/ContacList.css": "/goit-react-hw-05-phonebook/static/media/9849282051536572527.c649a410.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cca09c81.js",
-    "static/js/2.9ac5478f.chunk.js",
-    "static/css/main.d75e25b6.chunk.css",
-    "static/js/main.8b13f541.chunk.js"
+    "static/js/runtime-main.8e891d26.js",
+    "static/js/2.a241a452.chunk.js",
+    "static/css/main.c58d8a43.chunk.css",
+    "static/js/main.597481f9.chunk.js"
   ]
 }
